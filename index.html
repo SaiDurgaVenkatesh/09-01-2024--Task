@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .md{
+            margin-left: 35px;
+            margin-top: 05px;
+           
+        }
+        .hd{
+            border: 1px solid black;
+            width: 1000px;
+            height: 995px;
+            margin: 10px auto;
+            background-color: #ccccff;
+        }
+       
+        h3{
+            border: 1px solid black;
+           width: 300px;
+           height: 30px;
+           margin-left: 35px;
+           margin-top: -20px;
+           background-color: #c5d8ed;
+
+        }
+        .nani{
+            border: 1px solid black;
+            height: 470px;
+            /* background-color: yellowgreen; */
+            margin-left: 500px;
+            margin-top: -760px;
+            border-radius: 10px;
+            position: sticky;
+            width: 400px;
+            background-image: url("https://media.kulfyapp.com/EKOgSd/EKOgSd.png");
+        }
+        #s2:checked~.nani{
+            transform: rotate(10deg);
+            transition-duration: 2s;
+            background-color: #d33584;
+
+        }
+        #s3:checked~.nani{
+            transform: rotate(45deg);
+            transform: skew(10deg, 15deg);
+            background-color:  #31d4ae;
+            transition-duration: 2s;
+
+        }
+        #s4:checked~.nani{
+            transform: rotateX(45deg);
+            background-color:   #5dd336;
+            transition-duration: 2s;
+
+
+        }
+        #s5:checked~.nani{
+            transform: rotateX(100deg);
+            background-color:   #e06a6a;
+            transition-duration: 2s;
+
+
+        }
+        #s6:checked~.nani{
+            transform: rotateY(45deg);
+            background-color:   #eaea2a;
+            transition-duration: 2s;
+
+
+        }
+        #s7:checked~.nani{
+            transform: rotateY(80deg);
+            background-color:   #51acda;
+            transition-duration: 2s;
+
+
+        }
+        #s8:checked~.nani{
+            transform: skew(20deg,20deg);
+            background-color:  #ba36dc;
+            transition-duration: 2s;
+
+
+        }
+        #s9:checked~.nani{
+            transform: skew(30deg,30deg);
+            background-color:   #36369b;
+            transition-duration: 2s;
+
+
+        }
+        #s10:checked~.nani{
+            transform: skewX(30deg);
+            background-color:   #e59b4d;
+            transition-duration: 2s;
+
+
+        }
+        #s11:checked~.nani{
+            transform: skewX(40deg);
+            background-color:  #4343a2;
+            transition-duration: 2s;
+
+        }
+        #s12:checked~.nani{
+            transform: skewY(30deg);
+            background-color:  #d33584;
+            transition-duration: 2s;
+
+
+        }
+        #s13:checked~.nani{
+            transform: skewY(40deg);
+            background-color:  #45a945;
+            transition-duration: 2s;
+
+
+        }
+        #s1:checked~.nani{
+            transform: none;
+            background-color:  #e6e6e6;
+            transition-duration: 2s;
+
+
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="hd">
+    <div class="md">
+      <h1 style="margin-left: 330px; border: 1px solid black; width: 300px; text-align: center; background-color:  #a6a6; border-radius: 10px; transform: skewX(30deg); transition-duration: 2s;">CSS transform</h1>
+      <h4 style="margin-left: 10px;">Demo of the different values of the transform property.</h4>
+
+      <div class="n1">
+        <input type="radio" id="s1" value="data" name="name"><label for="s1"><h3>transform: none;</h3></label><br>
+        <input type="radio" id="s2" value="data" name="name"><label for="s2"><h3>transform: rotate(10deg);</h3></label><br>
+        <input type="radio" id="s3" value="data" name="name"><label for="s3"><h3>transform: rotate(45deg);</h3></label><br>
+        <input type="radio" id="s4" value="data" name="name"><label for="s4"><h3>transform: rotateX(45deg);</h3></label><br>
+        <input type="radio" id="s5" value="data" name="name"><label for="s5"><h3>transform: rotateX(100deg);</h3></label><br>
+        <input type="radio" id="s6" value="data" name="name"><label for="s6"><h3>transform: rotateY(45deg);</h3></label><br>
+        <input type="radio" id="s7" value="data" name="name"><label for="s7"><h3>transform: rotateY(80deg);</h3></label><br>
+
+        <input type="radio" id="s8" value="data" name="name"><label for="s8"><h3>transform: skew(20deg,20deg);</h3></label><br>
+        <input type="radio" id="s9" value="data" name="name"><label for="s9"><h3>transform: skew(30deg,30deg);</h3></label><br>
+        <input type="radio" id="s10" value="data" name="name"><label for="s10"><h3>transform: skewX(30deg);</h3></label><br>
+        <input type="radio" id="s11" value="data" name="name"><label for="s11"><h3>transform: skewX(40deg);</h3></label><br>
+        <input type="radio" id="s12" value="data" name="name"><label for="s12"><h3>transform: skewY(30deg);</h3></label><br>
+        <input type="radio" id="s13" value="data" name="name"><label for="s13"><h3>transform: skewY(40deg);</h3></label><br>
+
+
+        <div class="nani">
+         
+        </div>
+      </div>
+
+
+
+     
+               
+        
+    </div>
+
+    </div>
+</body>
+</html>
